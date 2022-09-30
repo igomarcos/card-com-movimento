@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "sass --watch ./assets/scss:./assets/css --style compressed --no-source-map",
     "git": "git add --all && git commit -m 'Deploy' && git push origin main && echo 'deploy realizado"
-
+  },
+  "dependencies": {
+    "vanilla-tilt": "^1.7.2"
   }
-
 }
-  

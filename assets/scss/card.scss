@@ -31,6 +31,40 @@ body {
             align-items: center;
             border-top: 1px solid rgba(255,255,255,0.5);
             border-left: 1px solid rgba(255,255,255,0.5);
+
+            .content{
+                padding: 20px;
+                text-align: center;
+                transform: translateY(100px);
+                opacity: 0;
+                transition: 0.5s;
+
+                .buttons{
+                    margin-top: 30px;
+                }
+                h2{
+                    margin-bottom: 40px;
+                }
+                img{
+                    margin-bottom: 15px;
+                }
+
+
+            }
+            .content:hover{
+                transform: translateY(0px);
+                opacity: 1;
+            }
+
+
         }
+    }
+
+    footer{
+        position: fixed;
+        display: flex;
+        bottom: 30px;
+        justify-content: center;
+        align-items: center;
     }
 }
